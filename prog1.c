@@ -9,7 +9,7 @@ int main() {
 
 	int myrand = rand()%11; // rand mod 11 gives [0,10] output
 
-
+	// branching conditionals for [0,4], [5,9], == 10, respectively
 	if (myrand <= 4) 
 	{
 		printf("Eat more beef, kick less cats\n");
